@@ -5,6 +5,12 @@
 .text-primary{
     color: #FD6E0A;
 }
+.header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
 /*  Header and navigation styles */
 nav{
     display: flex;
@@ -52,4 +58,39 @@ nav ul{
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
+}
+/* Main Section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*  About Section Style */
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    
+    text-align: center;
+
+}
+.section-title{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+
+
+}
+.section-description{
+    color:#757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+.about-details{
+    display: flex;
+    justify-content: space-around;
+}
+.about-details ul li{
+    list-style: none;
 }
